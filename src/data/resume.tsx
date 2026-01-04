@@ -80,16 +80,52 @@ export const DATA = {
 
   work: [
     {
-      company: "Secure Worldz",
+      company: "Founder & CEO",
       href: "https://secureworldz.vercel.app",
       badges: [],
       location: "Remote",
-      title: "Chief Executive Officer",
-      logoUrl: "/secureworldz.png",
-      start: "May 2021",
-      end: "Oct 2022",
+      title: "Secure Worldz",
+      logoUrl: "/companies/SW.jpg",
+      start: "2024",
+      end: "Present",
       description:
-        "Implemented the Bitcoin discreet log contract (DLC) protocol specifications as an open source Typescript SDK. Dockerized all microservices and setup production kubernetes cluster. Architected a data lake using AWS S3 and Athena for historical backtesting of bitcoin trading strategies. Built a mobile app using react native and typescript.",
+        "Founded and leading a cybersecurity-focused venture delivering secure technology solutions, tools, and learning platforms. Designed and developed security-driven applications and frameworks across software and cybersecurity domains. Conduct cybersecurity training, mentorship programs, and community initiatives for students and professionals. Provide consulting on secure system architecture, threat analysis, and best security practices. Lead project planning, product strategy, and technical decision-making.",
+    },
+    {
+      company: "Cybersecurity Engineer / Security Researcher",
+      href: "https://secureworldz.vercel.app",
+      badges: [],
+      location: "Remote",
+      title: "Independent / Projects-based",
+      logoUrl: "/secureworldz.png",
+      start: "2024",
+      end: "Present",
+      description:
+        "Worked across offensive and defensive security including vulnerability assessment, penetration testing, and system hardening. Built hands-on projects in networking, web security, and automation using Python and modern technologies.Researched real-world attack vectors and mitigation strategies aligned with industry standards.",
+    },
+    {
+      company: "Cybersecurity Trainer & Tech Speaker",
+      href: "https://secureworldz.vercel.app",
+      badges: [],
+      location: "Remote",
+      title: "Independent / Secure Worldz",
+      logoUrl: "/companies/SW.jpg",
+      start: "2024",
+      end: "Present",
+      description:
+        "Delivered hands-on cybersecurity training and technical workshops to 1000+ students across colleges and institutions. Invited as a Chief Guest and Guest Speaker for technical events, seminars, and cybersecurity awareness programs. Conducted sessions on cybersecurity fundamentals, ethical hacking, career guidance, and real-world security practices. Collaborated with educational institutions and communities to promote cybersecurity awareness and skill development.",
+    },
+    {
+      company: "Cybersecurity Mentor & Community Lead",
+      href: "https://secureworldz.vercel.app",
+      badges: [],
+      location: "Remote",
+      title: "Secure Worldz",
+      logoUrl: "/companies/SW.jpg",
+      start: "2024",
+      end: "Present",
+      description:
+        "Mentored students and early-career professionals in cybersecurity, networking, and secure development practices. Built and managed a growing cybersecurity community through workshops, live sessions, and online platforms. Guided learners on career paths, certifications, hands-on labs, and real-world security exposure. Actively supported learners by sharing industry insights, practical knowledge, and project guidance.",
     },
   ],
   education: [
@@ -109,17 +145,8 @@ export const DATA = {
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "Malware research is the defensive practice of safely studying malicious software to understand how it works. By analyzing its behavior in a secure, isolated lab, security experts can develop better tools and strategies to protect networks and individuals. The goal is to turn a threat into actionable intelligence, ultimately strengthening our digital defenses.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
+        "Malware research is the defensive practice of safely studying malicious software to understand how it works.",
+      technologies: [],
       links: [
         {
           type: "Website",
@@ -128,8 +155,6 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
       title: "SQL Injection Tester",
@@ -137,17 +162,8 @@ export const DATA = {
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "A simple tool to safely detect SQL Injection vulnerabilities in web apps. It helps identify weak points where user input can manipulate database queries, risking data leaks or unauthorized access. Perfect for developers and testers to find and fix SQLi issues quickly and securely.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
+        "A simple tool to safely detect SQL Injection vulnerabilities in web apps.",
+      technologies: [],
       links: [
         {
           type: "Website",
@@ -156,8 +172,6 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
       title: "Information Gathering & Recon Toolkit",
@@ -165,17 +179,8 @@ export const DATA = {
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
-        "This is a lightweight information gathering tool I built to automate the recon phase during ethical hacking, bug bounty hunting, or security assessments. It helps quickly map out a target's external attack surface by pulling public data like subdomains, DNS records, and open ports.",
-      technologies: [
-        "Next.js",
-        "Typescript",
-        "PostgreSQL",
-        "Prisma",
-        "TailwindCSS",
-        "Stripe",
-        "Shadcn UI",
-        "Magic UI",
-      ],
+        "This is a lightweight information gathering tool I built to automate the recon phase during ethical hacking, bug bounty hunting, or security assessments.",
+      technologies: [],
       links: [
         {
           type: "Website",
@@ -184,9 +189,47 @@ export const DATA = {
         },
       ],
       image: "",
-      video:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
+    {
+      title: "Drago — Founder & Product Lead",
+      href: "https://dragotool.shop",
+      dates: "Jan 2024 - Feb 2024",
+      active: true,
+      description:
+        "A marketplace for real-world technology and cybersecurity products built by practitioners and engineers who work with technology every day.",
+      technologies: [
+        "Vue.js",
+        "Typescript",
+        "TailwindCSS",
+        "React",
+        "Node.js",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://dragotool.shop",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/Drago.png",
+    },
+    {
+      title: "ProWorldz — Platform Description",
+      href: "https://dragotool.shop",
+      dates: "Jan 2024 - Feb 2024",
+      active: true,
+      description:
+        "ProWorldz is a professional technology and cybersecurity ecosystem focused on practical learning, real-world skills, and industry exposure.",
+      technologies: [],
+      links: [
+        {
+          type: "Website",
+          href: "https://dragotool.shop",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/Drago.png",
+    }
   ],
   hackathons: [
     {
