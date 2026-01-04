@@ -97,7 +97,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Independent / Projects-based",
-      logoUrl: "/secureworldz.png",
+      logoUrl: "/assets/2.jpg",
       start: "2024",
       end: "Present",
       description:
@@ -109,7 +109,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Independent / Secure Worldz",
-      logoUrl: "/companies/SW.jpg",
+      logoUrl: "/assets/3.jpg",
       start: "2024",
       end: "Present",
       description:
@@ -121,7 +121,7 @@ export const DATA = {
       badges: [],
       location: "Remote",
       title: "Secure Worldz",
-      logoUrl: "/companies/SW.jpg",
+      logoUrl: "/assets/4.jpg",
       start: "2024",
       end: "Present",
       description:
@@ -136,7 +136,6 @@ export const DATA = {
       active: true,
       description:
         "Malware research is the defensive practice of safely studying malicious software to understand how it works.",
-      technologies: [],
       links: [
         {
           type: "Website",
@@ -144,7 +143,8 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/malware.jpg",
+      tags: ["Malware", "Research", "Security"],
     },
     {
       title: "SQL Injection Tester",
@@ -153,7 +153,6 @@ export const DATA = {
       active: true,
       description:
         "A simple tool to safely detect SQL Injection vulnerabilities in web apps.",
-      technologies: [],
       links: [
         {
           type: "Website",
@@ -161,7 +160,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/sql.jpg",
     },
     {
       title: "Information Gathering & Recon Toolkit",
@@ -170,7 +169,6 @@ export const DATA = {
       active: true,
       description:
         "This is a lightweight information gathering tool I built to automate the recon phase during ethical hacking, bug bounty hunting, or security assessments.",
-      technologies: [],
       links: [
         {
           type: "Website",
@@ -178,7 +176,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/recon.jpg",
     },
     {
       title: "Drago — Founder & Product Lead",
@@ -187,13 +185,6 @@ export const DATA = {
       active: true,
       description:
         "A marketplace for real-world technology and cybersecurity products built by practitioners and engineers who work with technology every day.",
-      technologies: [
-        "Vue.js",
-        "Typescript",
-        "TailwindCSS",
-        "React",
-        "Node.js",
-      ],
       links: [
         {
           type: "Website",
@@ -219,6 +210,23 @@ export const DATA = {
         },
       ],
       image: "/proworldz.png",
+    },
+    {
+      title: "Kovalam Panchayat",
+      href: "https://kovalampanchayat.com/",
+      dates: "Jan 2024 - Feb 2024",
+      active: true,
+      description:
+        "Developed the complete official Kovalam Panchayat website building the entire platform from design to deployment to provide easy access to local services, community updates, and essential public information.",
+      technologies: [],
+      links: [
+        {
+          type: "Website",
+          href: "https://kovalampanchayat.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/kovalam.png",
     }
   ],
   hackathons: [

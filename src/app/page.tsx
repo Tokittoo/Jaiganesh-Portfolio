@@ -9,6 +9,7 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import SpotifyCard from "@/components/SpotifyCard";
 
 const BLUR_FADE_DELAY = 0.04;
 
@@ -40,6 +41,9 @@ export default function Page() {
           </div>
         </div>
       </section>
+      {/*} <section id="spotify">
+        <SpotifyCard />
+      </section>*/}
       <div className="space-y-4">
         <section id="about">
           <BlurFade delay={BLUR_FADE_DELAY * 3}>
@@ -123,7 +127,6 @@ export default function Page() {
                   title={project.title}
                   description={project.description}
                   dates={project.dates}
-                  tags={project.technologies}
                   image={project.image}
                   links={project.links}
                 />
