@@ -33,7 +33,7 @@ export function HackathonCard({
       </div>
       <div className="flex flex-1 flex-col justify-start gap-1">
 
-        <h2 className="font-semibold leading-none">{title}</h2>
+        <h2 className="text-xl font-semibold leading-none">{title}</h2>
         {location && (
           <p className="text-sm text-muted-foreground">{location}</p>
         )}

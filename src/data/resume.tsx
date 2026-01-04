@@ -244,11 +244,33 @@ export const DATA = {
     {
       title: "Entrepreneurship Cell (E-Cell)",
       dates: "Dec 19 - 20, 2024",
-      location: "Prince institute of Technology",
+      location: "Prince Dr.k Vasudevan Engineering College and Technology",
       description:
         "Winner First Prize for a Drone Project, recognized for innovation, technical implementation, and real world application.",
       image:
         "hackathon/e-cell.png",
+      mlh: "",
+      links: [],
+    },
+    {
+      title: "SIH",
+      dates: "Dec 19 - 20, 2024",
+      location: "Prince Dr.k Vasudevan Engineering College and Technology",
+      description:
+        "Internal Hackathon Winner (Smart India Hackathon – SIH), recognized for innovative problem-solving, strong technical implementation, and effective teamwork in developing a practical solution.",
+      image:
+        "hackathon/sih.png",
+      mlh: "",
+      links: [],
+    },
+    {
+      title: "Science Exploration Hackathon",
+      dates: "Dec 19 - 20, 2024",
+      location: "Prince Dr.k Vasudevan Engineering College and Technology",
+      description:
+        "Participated in a Science Exploration Hackathon, where I presented an innovative idea for automatic minute water detection to cut off electrical current. ",
+      image:
+        "hackathon/Science.jpg",
       mlh: "",
       links: [],
     },

@@ -13,7 +13,7 @@ export default function HallOfFame() {
       <AnimationWrapper>
         {/* Heading matching Skills section style */}
         <motion.div variants={childVariant} className="mx-auto w-full max-w-7xl text-left my-2">
-          <motion.h2 variants={childVariant} className='text-xl font-bold'>Colleges Trusted by</motion.h2>
+          <motion.h2 variants={childVariant} className='text-3xl font-bold'>Colleges Trusted by</motion.h2>
         </motion.div>
         {/* Full-bleed wrapper to span the entire viewport width even inside centered layouts */}
         <motion.div variants={childVariant} className="relative mx-[calc(50%-50vw)] w-screen px-6">
@@ -35,27 +35,27 @@ export default function HallOfFame() {
                     {logo.darkSrc ? (
                       <>
                         <Image
-                          className="h-10 md:h-12 w-auto object-contain transition-all duration-300 hover:scale-110 transform-gpu will-change-transform dark:hidden"
+                          className="h-14 md:h-20 w-auto object-contain transition-all duration-300 hover:scale-110 transform-gpu will-change-transform dark:hidden"
                           src={logo.src}
                           alt={logo.alt}
-                          height={48}
-                          width={120}
+                          height={80}
+                          width={200}
                         />
                         <Image
-                          className="h-10 md:h-12 w-auto object-contain transition-all duration-300 hover:scale-110 transform-gpu will-change-transform hidden dark:block"
+                          className="h-14 md:h-20 w-auto object-contain transition-all duration-300 hover:scale-110 transform-gpu will-change-transform hidden dark:block"
                           src={logo.darkSrc}
                           alt={logo.alt}
-                          height={48}
-                          width={120}
+                          height={80}
+                          width={200}
                         />
                       </>
                     ) : (
                       <Image
-                        className="h-10 md:h-12 w-auto object-contain transition-all duration-300 hover:scale-110 transform-gpu will-change-transform"
+                        className="h-14 md:h-20 w-auto object-contain transition-all duration-300 hover:scale-110 transform-gpu will-change-transform"
                         src={logo.src}
                         alt={logo.alt}
-                        height={48}
-                        width={120}
+                        height={80}
+                        width={200}
                       />
                     )}
                   </div>
@@ -76,27 +76,27 @@ export default function HallOfFame() {
                     {logo.darkSrc ? (
                       <>
                         <Image
-                          className="h-10 md:h-12 w-auto object-contain transition-all duration-300 hover:scale-110 transform-gpu will-change-transform dark:hidden"
+                          className="h-14 md:h-20 w-auto object-contain transition-all duration-300 hover:scale-110 transform-gpu will-change-transform dark:hidden"
                           src={logo.src}
                           alt={logo.alt}
-                          height={48}
-                          width={120}
+                          height={80}
+                          width={200}
                         />
                         <Image
-                          className="h-10 md:h-12 w-auto object-contain transition-all duration-300 hover:scale-110 transform-gpu will-change-transform hidden dark:block"
+                          className="h-14 md:h-20 w-auto object-contain transition-all duration-300 hover:scale-110 transform-gpu will-change-transform hidden dark:block"
                           src={logo.darkSrc}
                           alt={logo.alt}
-                          height={48}
-                          width={120}
+                          height={80}
+                          width={200}
                         />
                       </>
                     ) : (
                       <Image
-                        className="h-10 md:h-12 w-auto object-contain transition-all duration-300 hover:scale-110 transform-gpu will-change-transform"
+                        className="h-14 md:h-20 w-auto object-contain transition-all duration-300 hover:scale-110 transform-gpu will-change-transform"
                         src={logo.src}
                         alt={logo.alt}
-                        height={48}
-                        width={120}
+                        height={80}
+                        width={200}
                       />
                     )}
                   </div>
