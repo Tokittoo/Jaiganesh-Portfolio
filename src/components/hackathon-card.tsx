@@ -26,7 +26,7 @@ export function HackathonCard({
   return (
     <li className="relative ml-10 py-4">
       <div className="absolute -left-16 top-2 flex items-center justify-center bg-white rounded-full">
-        <Avatar className="border size-12 m-auto">
+        <Avatar className="size-12 m-auto">
           <AvatarImage src={image} alt={title} className="object-contain" />
           <AvatarFallback>{title[0]}</AvatarFallback>
         </Avatar>
@@ -47,14 +47,16 @@ export function HackathonCard({
       </div>
       {links && links.length > 0 && (
         <div className="mt-2 flex flex-row flex-wrap items-start gap-2">
-          {links?.map((link, idx) => (
-            <Link href={link.href} key={idx}>
-              <Badge key={idx} title={link.title} className="flex gap-2">
-                {link.icon}
-                {link.title}
-              </Badge>
-            </Link>
-          ))}
+          {links
+            ?.filter((link) => link.href && link.href !== "/" && link.href !== "#")
+            .map((link, idx) => (
+              <Link href={link.href} key={idx}>
+                <Badge key={idx} title={link.title} className="flex gap-2">
+                  {link.icon}
+                  {link.title}
+                </Badge>
+              </Link>
+            ))}
         </div>
       )}
     </li>

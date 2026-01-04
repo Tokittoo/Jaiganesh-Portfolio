@@ -1,5 +1,5 @@
 import { Icons } from "@/components/icons";
-import { HomeIcon, NotebookIcon } from "lucide-react";
+import { HomeIcon } from "lucide-react";
 
 export const DATA = {
   name: "Jaiganesh Lakshmanan",
@@ -229,8 +229,19 @@ export const DATA = {
       description:
         "Being on the organizing side gave me a whole new perspective on what goes into creating a successful CTF event.",
       image:
-        "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
-      mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
+        "hackathon/yukthi.jpg",
+      mlh: "",
+      links: [],
+    },
+    {
+      title: "Entrepreneurship Cell (E-Cell)",
+      dates: "Dec 19 - 20, 2024",
+      location: "Prince institute of Technology",
+      description:
+        "Winner First Prize for a Drone Project, recognized for innovation, technical implementation, and real world application.",
+      image:
+        "hackathon/e-cell.png",
+      mlh: "",
       links: [],
     },
   ],
