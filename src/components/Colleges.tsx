@@ -9,7 +9,7 @@ import { AnimationWrapper, childVariant } from "@/components/ui/animation-wrappe
 
 export default function HallOfFame() {
   return (
-    <section className="bg-background overflow-hidden py-4">
+    <section className="bg-background overflow-hidden">
       <AnimationWrapper>
         {/* Heading matching Skills section style */}
         <motion.div variants={childVariant} className="mx-auto w-full max-w-7xl text-left my-2">

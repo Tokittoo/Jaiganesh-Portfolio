@@ -128,20 +128,10 @@ export const DATA = {
         "Mentored students and early-career professionals in cybersecurity, networking, and secure development practices. Built and managed a growing cybersecurity community through workshops, live sessions, and online platforms. Guided learners on career paths, certifications, hands-on labs, and real-world security exposure. Actively supported learners by sharing industry insights, practical knowledge, and project guidance.",
     },
   ],
-  education: [
-    {
-      school: "Buildspace",
-      href: "https://buildspace.so",
-      degree: "s3, s4, sf1, s5",
-      logoUrl: "/buildspace.jpg",
-      start: "2023",
-      end: "2024",
-    },
-  ],
   projects: [
     {
       title: "Malware Research",
-      href: "https://chatcollect.com",
+      href: "/",
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
@@ -150,7 +140,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -158,7 +148,7 @@ export const DATA = {
     },
     {
       title: "SQL Injection Tester",
-      href: "https://chatcollect.com",
+      href: "/",
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
@@ -167,7 +157,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -175,7 +165,7 @@ export const DATA = {
     },
     {
       title: "Information Gathering & Recon Toolkit",
-      href: "https://chatcollect.com",
+      href: "/",
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
@@ -184,7 +174,7 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://chatcollect.com",
+          href: "/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
@@ -215,7 +205,7 @@ export const DATA = {
     },
     {
       title: "ProWorldz — Platform Description",
-      href: "https://dragotool.shop",
+      href: "/",
       dates: "Jan 2024 - Feb 2024",
       active: true,
       description:
@@ -224,20 +214,20 @@ export const DATA = {
       links: [
         {
           type: "Website",
-          href: "https://dragotool.shop",
+          href: "/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "/Drago.png",
+      image: "/proworldz.png",
     }
   ],
   hackathons: [
     {
-      title: "Hack Western 5",
-      dates: "November 23rd - 25th, 2018",
-      location: "London, Ontario",
+      title: "Yukthi CTF",
+      dates: "Dec 19 - 20, 2025",
+      location: "Savitha Engineering College",
       description:
-        "Developed a mobile application which delivered bedtime stories to children using augmented reality.",
+        "Being on the organizing side gave me a whole new perspective on what goes into creating a successful CTF event.",
       image:
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/hackline/hack-western.png",
       mlh: "https://s3.amazonaws.com/logged-assets/trust-badge/2019/mlh-trust-badge-2019-white.svg",
